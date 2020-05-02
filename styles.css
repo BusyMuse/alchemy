@@ -1,0 +1,33 @@
+body {
+    background-color: burlywood;
+    text-align: center;
+}
+
+hr {
+    height: 2rem;
+    background-color: grey;
+}
+
+h1 {
+    color: darkslategrey;
+    text-transform: uppercase;
+    font-size: large;
+    padding: 3rem;
+}
+
+button {
+    border-radius: 20%;
+    border: 0.2 groove black;
+    background-color: firebrick;
+}
+
+#signup {
+    padding: 2em;
+    background-color: lightgray;
+}
+
+
+/*fonts some are installed or like, common. if u need more: get them from google. pick em and get the link from it-*/
+
+
+/* font-size u can do inamic size u can use percentage (100% is 16px), otherwise use em. one em is 16px. BUT use rem if u use other upper-level size. like, if body is set to 1em, then u put 2em on h1, h1 will end up w 3em! It stacks sizes! so if u use 2rem on h1, it stays 2 bc it disregards any upper level of previous style u put*/
